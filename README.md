@@ -15,9 +15,9 @@ Usage
 cd scripts
 sudo ./start_nfc.sh
 ```
-It disables the SPI driver, starts a neard-explorenfc service and set new core on the FPGA. **This core does not support MATRIX Creator-HAL**
+It disables the SPI driver, starts a neard-explorenfc service and sets up a new core on the FPGA. **This core does not support MATRIX Creator-HAL**
 
-How unistall.
+How to uninstall.
 ====
 ```sh
 sudo  aptitude purge libneardal0 libneardal-dev neard-explorenfc
