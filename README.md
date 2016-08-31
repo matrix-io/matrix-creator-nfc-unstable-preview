@@ -15,7 +15,7 @@ Usage
 cd scripts
 sudo ./start_nfc.sh
 ```
-It disable SPI driver and start a neard-explorenfc service and then set a new core on the FPGA. **This core not support MATRIX Creator-HAL**
+It disables the SPI driver, starts a neard-explorenfc service and set new core on the FPGA. **This core does not support MATRIX Creator-HAL**
 
 How unistall.
 ====
