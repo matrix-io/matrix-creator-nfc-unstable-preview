@@ -1,5 +1,7 @@
 # MATRIX Creator - NFC Support - unestable
 
+Unstable support for PN512 with NXP neard-explorenfc package.
+
 cd neardal_packages
 
 sudo dpkg -i libneardal0_0.14.2-1_armhf.deb  libneardal-dev_0.14.2-1_armhf.deb  neard-explorenfc_0.9-1_armhf.deb
