@@ -10,6 +10,8 @@ First run the following script, in order to program a special firmware into the 
 Download the library from:
 http://www.nxp.com/webapp/sps/download/license.jsp?colCode=SW3693-1
 
+Transfer `sw3693.zip` to your Raspberry pi into `matrix-creator-nfc-unstable-preview/NFC_Library/`.
+
 Uncompress it into this directory with:
 ```sh
 unzip sw3693.zip
@@ -23,11 +25,10 @@ patch -p1 < nfc.patch
 Compile it:
 
 ```sh
-mkdir build
 cd build
 cmake ../
+make -j4
 ```
-
 Now you can run all examples of the NFC Reader Library v4.010.03.001609.
 
 To stop using the nfc specific firmware and restore the FPGA firmware that suppport MATRIX Creator platform, just run:
