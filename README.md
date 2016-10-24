@@ -1,9 +1,7 @@
 # MATRIX Creator - NFC Support - unstable
 Unstable support for PN512 with NXP neard-explorenfc package.
 
-## NFC FPGA Core Source
-===
-
+### NFC FPGA Core Source
 Verilog source code.
 ```
 |-- fpga_helper
@@ -12,9 +10,7 @@ Verilog source code.
 |   `-- nfc.v
 ```
 
-## NFC Libraries provide for NXP
-====
-
+### NFC Libraries provide for NXP
 NFC Library provide for NXP.
 ```
 |-- NFC_Library
@@ -24,9 +20,7 @@ NFC Library provide for NXP.
 |   `-- stop_nfc.sh
 ``` 
 
-## NFC neardal_packages (not recommended)
-===
-
+### NFC neardal_packages (not recommended)
 NFC .deb packages.
 ```
 |-- neardal_packages
@@ -37,4 +31,3 @@ NFC .deb packages.
 |   |-- start_nfc.sh
 |   `-- stop_nfc.sh
 ```
-
