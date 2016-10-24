@@ -6,7 +6,7 @@ rmmod    spi_bcm2835
 modprobe spi_bcm2835
 
 
-sudo xc3sprog -c  matrix_pi  ../fpga_helper/nfc.bit  -p 1
+sudo xc3sprog -c  matrix_pi  ../blob/nfc.bit  -p 1
 
 sleep 0.2
 service neard-explorenfc stop
