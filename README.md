@@ -10,7 +10,7 @@ Verilog source code.
 |   `-- nfc.v
 ```
 
-### NFC Libraries provide for NXP
+### NFC Library provide for NXP
 NFC Library provide for NXP.
 ```
 |-- NFC_Library
