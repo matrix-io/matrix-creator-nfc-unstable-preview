@@ -12,10 +12,12 @@ Uncompress into this directory with:
 
 unzip sw3693.zip
 
+Apply nfc.patch with:
+
+patch -p1 < nfc.patch
 
 Compile with:
 
-cd sw3693
 mkdir build
 cd build
 cmake ../
