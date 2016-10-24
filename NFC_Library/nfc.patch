@@ -1,0 +1,26 @@
+diff --git a/linux/shared/phhwConfig.h b/linux/shared/phhwConfig.h
+index cbd4420..10e8ad7 100755
+--- a/linux/shared/phhwConfig.h
++++ b/linux/shared/phhwConfig.h
+@@ -72,8 +72,8 @@
+ #elif BOARD == RaspberryPi_Rev2_Pinout
+ #define SPI_CONFIG		   "0:0:0" //PN512 is connected to SPI bus 0, CS pin 0, no busy pin
+ #define PIN_CS_IN		   2
+-#define PIN_IRQ			   23
+-#define PIN_NRST		   7
++#define PIN_IRQ			   5
++#define PIN_NRST		   6
+ 
+ 
+ #endif
+@@ -95,8 +95,8 @@
+ #elif BOARD == RaspberryPi_Rev2_Pinout
+ #define SPI_CONFIG		   "0:0:0" //RC663 is connected to SPI bus 0, CS pin 0, no busy pin
+ #define PIN_CS_IN		   2
+-#define PIN_IRQ			   23
+-#define PIN_NRST		   24
++#define PIN_IRQ			   5
++#define PIN_NRST		   6
+ 
+ #define PIN_IFSEL0         27
+ #define PIN_IFSEL1          22

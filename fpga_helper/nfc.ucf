@@ -1,0 +1,54 @@
+######################################################
+######################################################
+## These constraints are for MATRIX-PI-HAT          ##
+######################################################
+######################################################
+
+######################
+# Timing Constraints #
+######################
+
+##### Grouping Constraints #####
+NET clk TNM_NET = clk50_grp;
+
+##### Clock Period Constraints #####
+TIMESPEC TS_PER_CLK50 = PERIOD "clk50_grp" 20.0 ns;
+
+#######################
+# Pin LOC Constraints #
+#######################
+
+#OSC
+NET "clk"    LOC = "P84" | IOSTANDARD = LVCMOS33;
+
+#LED
+NET "led"       LOC = "P39" | IOSTANDARD = LVCMOS33 | DRIVE = 24;		
+
+#UART
+
+NET "UART_TX_PI"      LOC = "P70" | IOSTANDARD = LVCMOS33;        
+NET "UART_RX_PI"      LOC = "P69" | IOSTANDARD = LVCMOS33;    
+
+
+NET "SCK"       LOC = "P115" | IOSTANDARD = LVCMOS33;		
+NET "mosi"      LOC = "P112" | IOSTANDARD = LVCMOS33;		
+NET "miso"      LOC = "P114" | IOSTANDARD = LVCMOS33;		
+NET "CE"        LOC = "P116" | IOSTANDARD = LVCMOS33;		
+NET "PI_irq"    LOC = "P1"   | IOSTANDARD = LVCMOS33;
+NET "PI_RST"    LOC = "P139" | IOSTANDARD = LVCMOS33;
+
+NET "SCK_nfc"       LOC = "P126" | IOSTANDARD = LVCMOS33;		
+NET "mosi_nfc"      LOC = "P133" | IOSTANDARD = LVCMOS33;		
+NET "miso_nfc"      LOC = "P134" | IOSTANDARD = LVCMOS33;		
+NET "CE_nfc"        LOC = "P141" | IOSTANDARD = LVCMOS33;		
+NET "NFC_RST"       LOC = "P111" | IOSTANDARD = LVCMOS33;
+NET "NFC_irq"       LOC = "P140" | IOSTANDARD = LVCMOS33;
+
+#########################
+#        ZIGBEE         #
+#########################
+
+NET "Z_RX"            LOC = "P34" | IOSTANDARD = LVCMOS33 ;      
+NET "Z_TX"            LOC = "P35" | IOSTANDARD = LVCMOS33;
+NET "ZnRTS"           LOC = "P33" | IOSTANDARD = LVCMOS33;
+NET "ZnCTS"           LOC = "P32" | IOSTANDARD = LVCMOS33;
