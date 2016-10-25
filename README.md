@@ -11,8 +11,8 @@ Verilog source code.
 ```
 
 ### NFC Library provided by NXP
-NFC Library provided by NXP.
-```
+C code source of NFC Library provided by NXP. Follow the `NFC_Library/README.md` to compile and use it.
+ ```
 |-- NFC_Library
 |   |-- nfc.patch
 |   |-- README.md
@@ -21,7 +21,7 @@ NFC Library provided by NXP.
 ``` 
 
 ### NFC neardal_packages (not recommended)
-NFC .deb packages.
+NFC .deb packages.  Follow the `neardal_packages/README.md` to install and use it.
 ```
 |-- neardal_packages
 |   |-- libneardal0_0.14.2-1_armhf.deb
