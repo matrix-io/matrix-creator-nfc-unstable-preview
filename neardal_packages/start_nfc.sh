@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# to avoid conflicts with kernel SPI driver
+#avoid conflicts with kernel SPI driver
 
 rmmod    spi_bcm2835
 modprobe spi_bcm2835
