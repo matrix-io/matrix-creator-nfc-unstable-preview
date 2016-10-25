@@ -17,7 +17,7 @@ Uncompress it into this directory with:
 unzip sw3693.zip
 ```
 
-Apply nfc.patch:
+Apply nfc.patch in `matrix-creator-nfc-unstable-preview/NFC_Library/`:
 ```sh
 patch -p1 < nfc.patch
 ```
