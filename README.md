@@ -1,3 +1,5 @@
+:warning: NFC Support is currently being worked on here: https://github.com/matrix-io/matrix-hal-nfc
+
 # MATRIX Creator - NFC Support - unstable
 Unstable support for PN512.
 
